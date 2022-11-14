@@ -26,7 +26,7 @@ a {
 }
 
 .custom-table-responsive {
-    min-width: 750px;
+    min-width: 750px !important;
 }
 
 
@@ -90,6 +90,14 @@ a {
 
 .delete-btn:hover {
     background-color: #a3202c !important;
+}
+
+.detail-btn {
+    background-color: #0DCAF0 !important;
+}
+
+.detail-btn:hover {
+    background-color: #13a6c4 !important;
 }
 
 

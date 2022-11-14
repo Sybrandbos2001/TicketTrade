@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { ConcertListComponent } from './pages/concert/concert-list/concert-list.component';
+import { ConcertCreateComponent } from './pages/concert/concert-create/concert-create.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ConcertListComponent } from './pages/concert/concert-list/concert-list.
     FooterComponent,
     NavComponent,
     LandingComponent,
-    ConcertListComponent
+    ConcertListComponent,
+    ConcertCreateComponent
   ],
   imports: [
     BrowserModule,

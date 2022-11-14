@@ -1,0 +1,68 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-8 mx-auto grey-bg p-0 p-lg-5 my-5 boxing-shadow">
+            <div class="col-12">
+                <h1 class="mt-5 text-center">Een <span class="title-blue">concert</span> aanmaken</h1>
+            </div>
+            <div class="col-12 my-5">
+                <form class="needs-validation px-5" novalidate action="/" method="post">
+                    <div class="form-row">
+                        <div class="col-12 mb-4 mx-auto">
+                            <label for="name" class="mb-1 fw-bold">Naam maaltijdbox</label>
+                            <input type="text" name="name" class="form-control" id="name" required>
+                            <div class="invalid-feedback">
+                                Dit veld is verplicht.
+                            </div>
+                        </div>
+                        <div class="col-12 mb-1 mx-auto">
+                            <label for="allergenes" class="mb-1 fw-bold">Lijst allergenen*</label>
+                            <input type="text" name="allergenes" class="form-control" id="allergenes" required>
+                            <div class="invalid-feedback">
+                                Dit veld is verplicht.
+                            </div>
+                        </div>
+                        <small class="w-100 d-block mb-4 fst-italic">*Format is d.m.v. een komma, lactose, gluten, etc.</small>
+                        <div class="col-12 mx-auto mb-4">
+                            <label for="canteen" class="mb-1 fw-bold">Kantine</label>
+                            <select class="form-select" id="canteen" name="canteen" required>
+                                <option disabled selected hidden>Selecteer een stad</option>
+                                <option value="">Breda | LA-Gebouw</option>
+                                <option value="">Breda | LD-Gebouw</option>
+                                <option value="">Breda | Hogeschoollaan</option>
+                                <option value="">Den-Bosch</option>
+                                <option value="">Tilburg</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mb-4 mx-auto">
+                            <label for="expire-date" class="mb-1 fw-bold">Uiterlijke ophaaldatum</label>
+                            <input type="date" name="expire-date" class="form-control" id="expire-date" required>
+                            <div class="invalid-feedback">
+                                Dit veld is verplicht.
+                            </div>
+                        </div>
+                        <div class="col-12 mx-auto mb-4">
+                            <label for="meal-type" class="mb-1 fw-bold">Type maaltijd</label>
+                            <select class="form-select" id="meal-type" name="meal-type" required>
+                                <option disabled selected hidden>Selecteer een type maaltijd</option>
+                                <option value="">Avondmaaltijd</option>
+                                <option value="">Lunch</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mx-auto mb-4">
+                            <label for="price" class="mb-1 fw-bold">Prijs €</label>
+                            <input type="number" name="price" id="price" class="form-control" placeholder="5,00" required step="0.01" min="1,00" max="100,00" />
+                        </div>
+                        <div class="col-12 mx-auto mb-4">
+                            <label for="age-check" class="mb-1 fw-bold">Voor 18 jaar of ouder</label>
+                            <input class="form-check-input" type="checkbox" name="age-check" id="age-check" value="true">
+                        </div>
+                    </div>
+                    <div class="col-12 mx-auto mb-3 flex-xl-row flex-column d-flex justify-content-between">
+                        <a class="btn primary-btn secondary-btn mt-3" href="">Ga terug</a>
+                        <button class="btn primary-btn mt-3" type="submit">Aanmaken</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
