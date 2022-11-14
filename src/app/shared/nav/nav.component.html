@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-light blue-bg">
+    <div class="container">
+        <a class="navbar-brand" href="">
+            <h2 id="Logo-nav">TicketTrade</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-2 mx-4 mb-lg-0">
+                <li class="nav-item custom-link">
+                    <a class="nav-link" routerLink="">Home</a>
+                </li>
+                <li class="nav-item custom-link">
+                    <a class="nav-link" routerLink="">Concerten</a>
+                </li>
+                <li class="nav-item custom-link">
+                    <a class="nav-link" routerLink="">Info</a>
+                </li>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-user mx-1"></i>Gebruiker</button>
+                <div class="dropdown-content text-center">
+                    <a routerLink="">Tickets</a>
+                    <a routerLink="">Instellingen</a>
+                    <a routerLink="">Vrienden</a>
+                    <a routerLink="">Alerts</a>
+                    <div class="dropdown-divider"></div>
+                    <form action="" method="post">
+                        <button id="logout-btn" class="btn w-100" type="submit">Uitloggen</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
