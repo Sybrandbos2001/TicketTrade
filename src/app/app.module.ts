@@ -9,6 +9,7 @@ import { NavComponent } from './shared/nav/nav.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { ConcertListComponent } from './pages/concert/concert-list/concert-list.component';
 import { ConcertCreateComponent } from './pages/concert/concert-create/concert-create.component';
+import { ConcertDetailComponent } from './pages/concert/concert-detail/concert-detail.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ConcertCreateComponent } from './pages/concert/concert-create/concert-c
     NavComponent,
     LandingComponent,
     ConcertListComponent,
-    ConcertCreateComponent
+    ConcertCreateComponent,
+    ConcertDetailComponent
   ],
   imports: [
     BrowserModule,
