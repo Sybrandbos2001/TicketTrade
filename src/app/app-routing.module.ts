@@ -4,12 +4,12 @@ import { ConcertListComponent } from './pages/concert/concert-list/concert-list.
 import { LandingComponent } from './pages/landing/landing.component';
 
 const routes: Routes = [
-  {path: '', component: LandingComponent},
-  {path: 'concerten', component: ConcertListComponent},
+  { path: '', component: LandingComponent },
+  { path: 'concerten', component: ConcertListComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
